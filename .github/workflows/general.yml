@@ -74,9 +74,7 @@ steps:
 
       - name: Run tests
         run: cargo test
-  
-  
-# `fmt` container job
+
   fmt:
     name: Rustfmt
     runs-on: ubuntu-latest
